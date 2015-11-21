@@ -22,10 +22,30 @@ targetCompatibility = 1.8
 
 repositories {
     mavenCentral()
+
+    maven {
+        name = 'sponge-api'
+        url = 'http://repo.spongepowered.org/maven'
+    }
+
+    maven {
+        name = 'spigot-api'
+        url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
+    }
+
+    maven {
+        name = 'bungeecord'
+        url = 'https://oss.sonatype.org/content/groups/public/'
+    }
+
 }
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
+
+    compile 'org.spongepowered:spongeapi:2.1-SNAPSHOT'
+    compile 'org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT'
+    compile 'net.md-5:bungeecord-api:1.8-SNAPSHOT'
 }
 
 license {
