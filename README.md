@@ -7,17 +7,11 @@ Master: [![Master Status]](https://travis-ci.org/kinggoesgaming/S-S-Essentials)
 
 SpongeAPI: [![SpongeAPI Status]](https://travis-ci.org/kinggoesgaming/S-S-Essentials)
 
-SpigotAPI: [![SpigotAPI Status]](https://travis-ci.org/kinggoesgaming/S-S-Essentials)
-
-Common: [![Common Status]](https://travis-ci.org/kinggoesgaming/S-S-Essentials)
-
 Sponge: [![Sponge Status]](https://travis-ci.org/kinggoesgaming/S-S-Essentials)
-
-Spigot: [![Spigot Status]](https://travis-ci.org/kinggoesgaming/S-S-Essentials)
 
 **Currently not stable and under heavy development**
 
-A minecraft plugin for Sponge and Bukkit platforms.
+A minecraft plugin for Sponge platforms.
 Contains many essential commands, features and a lot useful APIs.
 
 ## Links ##
@@ -80,10 +74,7 @@ You can find the compiled JAR file in `./build/libs` labeled similarly to 'SS-Es
 
 [Master Status]: https://travis-ci.org/kinggoesgaming/S-S-Essentials.svg?branch=master
 [SpongeAPI Status]: https://travis-ci.org/kinggoesgaming/S-S-Essentials.svg?branch=spongeapi
-[SpigotAPI Status]: https://travis-ci.org/kinggoesgaming/S-S-Essentials.svg?branch=spigotapi
-[Common Status]: https://travis-ci.org/kinggoesgaming/S-S-Essentials.svg?branch=common
 [Sponge Status]: https://travis-ci.org/kinggoesgaming/S-S-Essentials.svg?branch=sponge
-[Spigot Status]: https://travis-ci.org/kinggoesgaming/S-S-Essentials.svg?branch=spigot
 [Source]: https://github.com/kinggoesgaming/S-S-Essentials
 [Wiki]: https://github.com/kinggoesgaming/S-S-Essentials/wiki
 [Issues]: https://github.com/kinggoesgaming/S-S-Essentials/issues
