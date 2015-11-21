@@ -1,4 +1,4 @@
-package ca.kinggoesgaming.ssessentials.sponge;
+package ca.kinggoesgaming.ssessentials;
 
 /**
  * General plugin description.
