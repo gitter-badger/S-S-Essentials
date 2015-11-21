@@ -1,9 +1,23 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'nl.javadude.gradle.plugins:license-gradle-plugin:0.11.0'
+    }
+}
+
+
 group 'me.kinggoesgaming.ssessentials'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
+apply plugin: 'license'
 
-sourceCompatibility = 1.5
+defaultTasks 'licenseFormat'
+
+sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
@@ -11,4 +25,32 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
+}
+
+license {
+    //the project name to use
+    ext.name = project.name
+    ext.owner = project.owner
+
+    //for usage of these values see this: https://github.com/hierynomus/license-gradle-plugin#variable-substitution
+
+    //files to exclude from formatting (anything that is a .info file and assets in this example)
+    exclude "**/*.info"
+    exclude "assets/**"
+
+    //the file that contains the header
+    header file('HEADER.txt')
+
+    //the source sets to apply the license to
+    //this should be enough for you, it covers all the projects source sets
+    sourceSets = project.sourceSets
+
+    ignoreFailures false
+    strictCheck true
+
+    //what style your comment should be
+    mapping {
+        //in this case it's the following: /* and then continuing with stars.
+        java = 'SLASHSTAR_STYLE'
+    }
 }
