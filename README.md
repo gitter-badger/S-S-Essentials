@@ -18,8 +18,7 @@ Spigot: [![Spigot Status]](https://travis-ci.org/kinggoesgaming/S-S-Essentials)
 **Currently not stable and under heavy development**
 
 A minecraft plugin for Sponge and Bukkit platforms.
-It contains a lot useful APIs.
-This plugin contains many essential commands, features and a lot useful APIs.
+Contains many essential commands, features and a lot useful APIs.
 
 ## Links ##
 * [Source]
