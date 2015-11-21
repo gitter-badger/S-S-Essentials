@@ -31,6 +31,8 @@ license {
     //the project name to use
     ext.name = project.name
     ext.owner = project.owner
+    ext.inceptionYear = project.inceptionYear
+    ext.currentYear = project.currentYear
 
     //for usage of these values see this: https://github.com/hierynomus/license-gradle-plugin#variable-substitution
 
